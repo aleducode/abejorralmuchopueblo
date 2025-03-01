@@ -586,7 +586,7 @@
       </div>
     </section>
     <section class="tour-section section-padding fix bg-cover section-bg"
-             style="background-image: url(assets/img/tour/bg.png)">
+             style="background-image: url({% static 'assets/img/tour/bg.png' %})">
       <div class="container">
         <div class="section-title text-center">
           <span class="wow fadeInUp">Aquí te esperamos</span>
@@ -1233,7 +1233,7 @@
     </section>
     <!-- Tour-descover-section Start -->
     <section class="tour-descover-section section-padding fix bg-cover"
-             style="background-image: url(assets/img/tour/bg2.jpg)">
+            style="background-image: url('{% static 'assets/img/tour/bg2.jpg' %}')">
       <div class="container">
         <div class="tour-discover-wrapper">
           <div class="row g-4">
@@ -1775,7 +1775,8 @@
           </div>
         </div>
         <div class="cta-wrapper-4 section-padding bg-cover"
-             style="background-image: url('assets/img/cta/cta-bg-3.jpg')">
+
+             style="background-image: url('{% static 'assets/img/cta/cta-bg-3.jpg' %}')">
           <div class="section-title text-center mb-0">
             <span class="wow fadeInUp">Special Offer</span>
             <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -2026,7 +2027,7 @@
     </div>
     <!-- Footer Section Start -->
     <footer class="footer-section fix section-bg bg-cover"
-            style="background-image: url('assets/img/footer/bg-image.jpg')">
+            style="background-image: url('{% static 'assets/img/footer/bg-image.jpg' %}')">
       <div class="container">
         <div class="footer-newsletter-items">
           <h2>Get Updated the Our Latest Newsletter</h2>
