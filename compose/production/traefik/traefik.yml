@@ -3,16 +3,13 @@ log:
 
 entryPoints:
   web:
-    # http
     address: ':80'
     http:
-      # https://doc.traefik.io/traefik/routing/entrypoints/#entrypoint
       redirections:
         entryPoint:
           to: web-secure
 
   web-secure:
-    # https
     address: ':443'
 
   flower:
@@ -20,26 +17,33 @@ entryPoints:
 
 certificatesResolvers:
   letsencrypt:
-    # https://doc.traefik.io/traefik/https/acme/#lets-encrypt
     acme:
       email: 'ducode@outlook.com'
       storage: /etc/traefik/acme/acme.json
-      # https://doc.traefik.io/traefik/https/acme/#httpchallenge
       httpChallenge:
         entryPoint: web
 
 http:
   routers:
     web-secure-router:
-      rule: 'Host(`abejorralmuchopueblo.com`) || Host(`44.233.206.60`)'
+      # Remove the IP address from the Host rule
+      rule: 'Host(`abejorralmuchopueblo.com`)'
       entryPoints:
         - web-secure
       middlewares:
         - csrf
       service: django
       tls:
-        # https://doc.traefik.io/traefik/routing/routers/#certresolver
         certResolver: letsencrypt
+
+    # Add a separate router for IP access (without TLS)
+    web-insecure-router:
+      rule: 'Host(`44.233.206.60`)'
+      entryPoints:
+        - web
+      middlewares:
+        - csrf
+      service: django
 
     flower-secure-router:
       rule: 'Host(`abejorralmuchopueblo.com`)'
@@ -47,13 +51,10 @@ http:
         - flower
       service: flower
       tls:
-        # https://doc.traefik.io/traefik/master/routing/routers/#certresolver
         certResolver: letsencrypt
 
   middlewares:
     csrf:
-      # https://doc.traefik.io/traefik/master/middlewares/http/headers/#hostsproxyheaders
-      # https://docs.djangoproject.com/en/dev/ref/csrf/#ajax
       headers:
         hostsProxyHeaders: ['X-CSRFToken']
 
@@ -69,7 +70,6 @@ http:
           - url: http://flower:5555
 
 providers:
-  # https://doc.traefik.io/traefik/master/providers/file/
   file:
     filename: /etc/traefik/traefik.yml
     watch: true
