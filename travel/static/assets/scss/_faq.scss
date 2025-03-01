@@ -1,14 +1,14 @@
 .faq-items {
-    
+
     .accordion-item {
         border: 0;
         background-color: $white;
         border-radius: 10px;
         border: 1px solid rgba(35, 28, 37, 0.18);
-    
-        .accordion-header { 
+
+        .accordion-header {
             border: none;
-            .accordion-button { 
+            .accordion-button {
                 font-size: 20px;
                 font-weight: 500;
                 color: $header-color;
@@ -18,7 +18,7 @@
                 background-color: $white;
                 padding: 22px 22px 0;
                 text-transform: capitalize;
-    
+
                 &::after {
                     content: "\f078";
                     background: transparent;
@@ -35,18 +35,18 @@
                     transform: rotate(0);
                     color: $theme-color;
                 }
-    
+
                 &.collapsed {
                     background-color: transparent;
                     padding: 25px 22px;
                     color: $header-color;
                 }
-              
+
             }
         }
-    
-        .accordion-collapse { 
-    
+
+        .accordion-collapse {
+
             .accordion-body {
                 padding-left: 30px;
                 padding-top: 15px;
@@ -97,7 +97,7 @@
             @include breakpoint (max-lg){
                 display: none;
             }
-            
+
             img {
                 @include imgw;
             }

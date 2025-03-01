@@ -216,16 +216,16 @@
                     font-weight: 600;
                     margin-bottom: 20px;
                 }
-        
+
                 .accordion-item {
                     border: 0;
                     background-color: $white;
                     border-radius: 10px;
                     border: 1px solid rgba(35, 28, 37, 0.18);
-                
-                    .accordion-header { 
+
+                    .accordion-header {
                         border: none;
-                        .accordion-button { 
+                        .accordion-button {
                             font-size: 20px;
                             font-weight: 500;
                             color: $header-color;
@@ -236,7 +236,7 @@
                             border-radius: 0;
                             padding: 22px 22px 0;
                             text-transform: capitalize;
-                
+
                             &::after {
                                 content: "\f078";
                                 background: transparent;
@@ -253,18 +253,18 @@
                                 transform: rotate(0);
                                 color: $theme-color;
                             }
-                
+
                             &.collapsed {
                                 background-color: transparent;
                                 padding: 25px 30px;
                                 color: $header-color;
                             }
-                          
+
                         }
                     }
-                
-                    .accordion-collapse { 
-                
+
+                    .accordion-collapse {
+
                         .accordion-body {
                             padding-left: 30px;
                             padding-top: 15px;
@@ -288,7 +288,7 @@
                 }
 
                 .google-map {
-            
+
                     iframe {
                         border-radius: 28px;
                         width: 100%;
@@ -425,7 +425,7 @@
                 color: $header-color;
                 font-weight: 800;
                 width: initial;
-    
+
                 &::after {
                     right: 0;
                     border-bottom: 1px solid $header-color;
@@ -434,22 +434,22 @@
                     height: 9px;
                     margin-top: -15px;
                 }
-    
+
                 .list {
                     width: 100%;
                     background-color: $bg-color;
                     top: 60%;
                 }
-    
+
                 .focus {
                     background-color: transparent;
                     font-weight: 400;
                     color: $text-color;
                 }
-    
+
                 .option {
                     border: none;
-    
+
                     &:hover {
                         background-color: transparent;
                     }
@@ -502,7 +502,7 @@
                         padding-left: 15px;
                         cursor: pointer;
                         display: block;
-        
+
                          input {
                             position: absolute;
                             opacity: 0;
@@ -510,7 +510,7 @@
                             height: 0;
                             width: 0;
                         }
-        
+
                         .checkbox-area {
                             .checkmark {
                                 position: absolute;
@@ -518,7 +518,7 @@
                                 height: 20px;
                                 width: 20px;
                                 border-radius: 5px;
-                                border: 1px solid rgba(21, 20, 21, 0.14);                     
+                                border: 1px solid rgba(21, 20, 21, 0.14);
                                 background-color: $white;
                                 top: 5px;
                                 &::after {
@@ -535,7 +535,7 @@
                                     color: $theme-color;
                                     font-size: 11px;
                                 }
-        
+
                                 background-color: $theme-color;
                             }
                             input:checked ~ .checkmark:after {
@@ -543,23 +543,23 @@
                                 color: $white;
                             }
                         }
-        
+
                         .text-color {
                             font-weight: 600;
                             color: #8E8F8F;
                             font-size: 14px;
-        
+
                             .star {
                                 color: #FD8F21;
                                 margin-right: 5px;
-        
+
                                 i {
                                     &.color-2 {
                                         color: $text-color;
                                     }
                                 }
                             }
-        
+
                             .ratting-text {
                                 font-size: 16px;
                             }
@@ -575,7 +575,7 @@
                     cursor: pointer;
                     display: block;
                     margin-bottom: 10px;
-    
+
                      input {
                         position: absolute;
                         opacity: 0;
@@ -583,7 +583,7 @@
                         height: 0;
                         width: 0;
                     }
-    
+
                     .checkbox-area {
                         .checkmark {
                             position: absolute;
@@ -591,7 +591,7 @@
                             height: 20px;
                             width: 20px;
                             border-radius: 5px;
-                            border: 1px solid rgba(21, 20, 21, 0.14);                     
+                            border: 1px solid rgba(21, 20, 21, 0.14);
                             background-color: $white;
                             top: 5px;
                             &::after {
@@ -608,7 +608,7 @@
                                 color: $theme-color;
                                 font-size: 11px;
                             }
-    
+
                             background-color: $theme-color;
                         }
                         input:checked ~ .checkmark:after {
@@ -616,23 +616,23 @@
                             color: $white;
                         }
                     }
-    
+
                     .text-color {
                         font-weight: 600;
                         color: #8E8F8F;
                         font-size: 14px;
-    
+
                         .star {
                             color: #FD8F21;
                             margin-right: 5px;
-    
+
                             i {
                                 &.color-2 {
                                     color: $text-color;
                                 }
                             }
                         }
-    
+
                         .ratting-text {
                             font-size: 16px;
                         }
@@ -676,7 +676,7 @@
                     font-weight: 500;
                 }
             }
-        
+
             .slider {
                 -webkit-appearance: none;
                 appearance: none;
@@ -689,7 +689,7 @@
                 // z-index: 1;
                 pointer-events: none;
             }
-        
+
             /* Custom thumb styling */
             .slider::-webkit-slider-thumb {
                 -webkit-appearance: none;
@@ -703,7 +703,7 @@
                 z-index: 2;
                 pointer-events: all;
             }
-        
+
             .slider::-moz-range-thumb {
                 width: 20px;
                 height: 20px;
@@ -714,7 +714,7 @@
                 z-index: 2;
                 position: relative;
             }
-        
+
             .slider::-ms-thumb {
                 width: 20px;
                 height: 20px;
@@ -725,7 +725,7 @@
                 z-index: 2;
                 position: relative;
             }
-        
+
             /* Remove the default appearance for sliders in Firefox */
             input[type="range"]::-moz-range-track {
                 background: transparent;
@@ -739,7 +739,7 @@
         padding: 30px 25px;
         margin-top: 30px;
     }
-    
+
     .single-post-item {
         overflow: hidden;
         padding-bottom: 20px;
@@ -799,7 +799,7 @@
 
             .post-date {
                 margin-top: 10px;
-                color: theme-color;                
+                color: theme-color;
                 font-weight: 600;
                 font-size: 15px;
                 text-transform: capitalize;
@@ -918,7 +918,7 @@
         &.bg-4 {
             background-color: #6AF3A8;
         }
-    
+
         &.bg-5 {
             background-color: #FFCF32;
         }
@@ -1054,7 +1054,7 @@
 
         @include breakpoint (max-lg){
             width: 424px !important;
-            
+
             .content {
                 left: 40px;
                 bottom: 40px;
@@ -1064,7 +1064,7 @@
                 -webkit-transition: all .8s ease-in-out;
                 transition: all .8s ease-in-out;
             }
- 
+
             .icon {
                  opacity: 1;
                  visibility: visible;

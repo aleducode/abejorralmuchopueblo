@@ -1,5 +1,5 @@
 // .border-wrap {
-//     border: 2px solid #ededed;    
+//     border: 2px solid #ededed;
 // }
 
 .blog-wrapper {
@@ -15,7 +15,7 @@
     //         padding: 50px 15px;
     //     }
 
-    //     .single-blog-post {            
+    //     .single-blog-post {
     //         .post-content {
     //             padding: 0px;
     //         }
@@ -29,7 +29,7 @@
 
     .single-blog-post {
         margin-bottom: 40px;
-        position: relative;    
+        position: relative;
         .video__button {
             position: absolute;
             left: 50%;
@@ -49,7 +49,7 @@
                     border: none;
                 }
             }
-            .post-content {                
+            .post-content {
                 border: none;
 
                 img {
@@ -70,7 +70,7 @@
                 h1, h2, h3, h4, h5, h6 {
                     margin-top: 10px;
                 }
-                
+
                 table {
                     margin-top: 20px;
                 }
@@ -84,7 +84,7 @@
                         font-size: 20px;
                     }
                 }
-                
+
             }
 
             blockquote, .wp-block-quote {
@@ -114,7 +114,7 @@
                     font-size: 18px;
                     line-height: 1.5;
                 }
-                
+
                 &::before {
                     right: 30px;
                     font-size: 110px;
@@ -128,12 +128,12 @@
                     opacity: .1;
                     font-weight: 900;
                 }
-                
+
             }
         }
 
         &.format-video, &.category-video-post {
-            
+
             .post-featured-thumb {
                 z-index: 1;
                 position: relative;
@@ -150,7 +150,7 @@
                 }
             }
         }
-        
+
         &.quote-post, &.format-quote {
             .post-content {
                 position: relative;
@@ -162,7 +162,7 @@
                    background-image: url(../../assets/img/quotepost.png);
                    background-repeat: no-repeat;
                    background-size: cover;
-                    
+
                 }
             }
 
@@ -190,12 +190,12 @@
                         font-size: 50px;
                         line-height: 60px;
                     }
-                                  
+
                 }
                 .quote-text {
                     overflow: hidden;
                 }
-                
+
                 h2 {
                     margin-top: -2px;
                     font-size: 36px;
@@ -208,7 +208,7 @@
                         color: $white;
                     }
                 }
-            }            
+            }
         }
 
         &:last-child {
@@ -229,10 +229,10 @@
                 padding: 15px 30px;
                 background-color: $theme-color;
                 text-align: center;
-    
+
                 h4 {
                     color: $white;
-    
+
                     span {
                         color: $white;
                         text-transform: uppercase;
@@ -407,7 +407,7 @@
                     width: 40px;
                     line-height: 40px;
                     border-radius: 50%;
-                    background-color: #f2f2f2;                                        
+                    background-color: #f2f2f2;
                     margin-right: 15px;
                     float: left;
                     overflow: hidden;
@@ -445,7 +445,7 @@
                     @media (max-width: 767px) {
                         font-size: 14px;
                     }
-                    
+
                     i {
                         margin-right: 5px;
 
@@ -463,59 +463,59 @@
 .news-area {
     .main-sidebar {
         @media (min-width: 991px) {
-            margin-left: 20px;    
+            margin-left: 20px;
         }
-        
+
         @media (max-width: 991px) {
-            margin-top: 40px;    
+            margin-top: 40px;
         }
-    
+
         .single-sidebar-widget {
             box-sizing: border-box;
             padding: 30px;
             margin-bottom: 40px;
             border-radius: 10px;
             background: #EFEEFA;
-    
+
             ul {
                 padding-left: 0;
-                
+
                 > li {
                     margin-bottom: 10px;
-    
-                    a {                    
+
+                    a {
                         font-size: 18px;
                         font-weight: 600;
                         text-transform: capitalize;
-                        
+
                         &:hover {
                             color:$theme-color;
                         }
                     }
                 }
-                
+
                 ul {
                     padding-left: 20px;
-                    
+
                     li {
                         margin-top: 5px;
                     }
                 }
             }
-    
+
             &:last-child {
-                margin-bottom: 0;            
+                margin-bottom: 0;
             }
-    
+
             .wid-title {
                 margin-bottom: 25px;
                 padding-left: 45px;
                 position: relative;
-    
+
                 &::before {
                     left: 0;
                     top: 50%;
-                    transform: translateY(-50%);                
+                    transform: translateY(-50%);
                     content: "";
                     height: 4px;
                     width: 18px;
@@ -526,7 +526,7 @@
                 &::after {
                     left: 22px;
                     top: 50%;
-                    transform: translateY(-50%);                
+                    transform: translateY(-50%);
                     content: "";
                     height: 4px;
                     width: 4px;
@@ -534,14 +534,14 @@
                     position: absolute;
                     background-color: $theme-color;
                 }
-    
+
                 h4 {
                     font-size: 24px;
                     font-weight: 600;
                 }
-    
+
             }
-    
+
             .social-link {
                 a {
                     display: inline-block;
@@ -563,7 +563,7 @@
                 }
             }
         }
-    
+
     }
 }
 
@@ -595,9 +595,9 @@
             text-align: center;
             transition: all .3s ease-in-out;
             border-radius: 4px;
-            border-top-left-radius: 0;         
-            border-bottom-left-radius: 0;  
-            
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+
             &:hover {
                 background-color: $header-color;
             }
@@ -646,7 +646,7 @@
 
             .post-date {
                 margin-top: 10px;
-                color: $theme-color;                
+                color: $theme-color;
                 font-weight: 600;
                 font-size: 15px;
                 text-transform: capitalize;
@@ -672,7 +672,7 @@
 
             a {
                 position: relative;
-                background: $white;                
+                background: $white;
                 padding: 17px 20px;
                 line-height: 1;
                 font-size: 14px;
@@ -694,15 +694,15 @@
                     position: absolute;
                     width: 60px;
                     line-height: 55px;
-                    height: 100%;                    
+                    height: 100%;
                     content: "";
                     background-color: $theme-color;
                     right: 0;top: 0;
                     text-align: center;
-                    color: $white;      
+                    color: $white;
                     border-radius: 4px;
-                    border-top-left-radius: 0;         
-                    border-bottom-left-radius: 0;         
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
                 }
             }
         }
@@ -723,9 +723,9 @@
         margin-bottom: 10px;
         border-radius: 4px;
         &:last-child {
-            margin-right: 0;            
+            margin-right: 0;
         }
-        
+
         &:hover {
             background-color: $theme-color;
             color: $white;
@@ -735,7 +735,7 @@
 
 .widget_categories {
     ul {
-        li {            
+        li {
             display: block;
             margin-bottom: 10px;
         }
@@ -768,7 +768,7 @@ p.sticky-label {
                 width: 60px;
                 height: 60px;
                 line-height: 60px;
-                border-radius: 50%;                
+                border-radius: 50%;
                 background: #f6f6f6;
                 font-weight: 700;
                 transition: all 0.3s ease-in-out;
@@ -805,7 +805,7 @@ p.sticky-label {
 }
 
 .tag-share-wrap {
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 
     h4 {
         margin-bottom: 25px;
@@ -813,7 +813,7 @@ p.sticky-label {
         @media (max-width: 767px) {
             margin-bottom: 10px;
             font-size: 18px;
-        }        
+        }
     }
 
     .tagcloud {
@@ -881,9 +881,9 @@ p.sticky-label {
             overflow: auto;
             padding-bottom: 25px;
             border-bottom: 1px solid #e2e2e2;
-            
+
             .info {
-                position: relative;      
+                position: relative;
                 .theme-btn {
                     padding: 10px 18px;
                     font-size: 14px;
@@ -902,7 +902,7 @@ p.sticky-label {
                     @media (max-width: 767px) {
                         font-size: 12px;
                     }
-    
+
                     i {
                         margin-right: 10px;
                         margin-left: 0px !important;
@@ -918,7 +918,7 @@ p.sticky-label {
                             background-color: initial
                         }
                     }
-    
+
                     &:hover {
                        background-color: $theme-color;
                        color: $white;
@@ -1010,7 +1010,7 @@ p.sticky-label {
         box-shadow: 0px 15px 10px 0px rgba(242, 242, 242, 0.18);
         border-radius: 4px;
         @media (max-width: 585px) {
-            padding: 15px;            
+            padding: 15px;
         }
     }
 
@@ -1022,7 +1022,7 @@ p.sticky-label {
             height: 120px;
         }
     }
-    
+
     .theme-btn{
         display: inline-block;
         transition: all .3s ease-in-out;
@@ -1108,7 +1108,7 @@ p.sticky-label {
 
     .social-link {
         margin-top: 35px;
-        
+
         a {
             margin-right: 8px !important;
         }

@@ -69,7 +69,7 @@
             }
 
            ul {
-              
+
                 li {
                     font-size: 18px;
                     font-weight: 700;
@@ -116,7 +116,7 @@
                 justify-content: center;
             }
        }
-    } 
+    }
 }
 
 .about-wrappper-2 {
@@ -240,20 +240,20 @@
                     gap: 30px;
                     text-align: center;
                 }
-    
+
                 .icon {
                     i {
                         color: $theme-color;
                         font-size: 53px;
                     }
                 }
-    
+
                 .content {
-    
+
                     h4 {
                         margin-bottom: 20px;
                     }
-    
+
                     p {
                         font-size: 18px;
                         font-weight: 500;
@@ -271,7 +271,7 @@
         @include breakpoint (max-xl){
             flex-wrap: wrap;
         }
-        
+
         .author-contact {
             @include flex;
             gap: 15px;

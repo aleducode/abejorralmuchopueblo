@@ -8,7 +8,7 @@
     @include breakpoint (max-sm){
       padding: 30px;
     }
-    
+
     .icon {
         position: absolute;
         bottom: 48px;
@@ -177,7 +177,7 @@
     border: 1px solid rgba(21, 20, 21, 0.14);
     border-radius: 28px;
     margin-top: 30px;
-    
+
     .star {
         color:#F7921E;
         margin-bottom: 20px;
@@ -233,7 +233,7 @@
         width: 100%;
         height: initial;
     }
-    
+
     .star {
         color: $theme-color-2;
         margin-bottom: 15px;
@@ -260,7 +260,7 @@
         span {
             font-size: 14px;
             font-weight: 600;
-           
+
         }
     }
 }

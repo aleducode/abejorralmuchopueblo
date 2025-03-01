@@ -9,7 +9,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px 0;
-	
+
 	.main-menu {
 		ul {
 			margin-bottom: 0;
@@ -30,12 +30,12 @@
 				@include breakpoint (max-xxl){
 					margin-inline-end: 25px;
 				}
-				
-	
+
+
 			&:last-child {
 				margin-inline-end: 0;
 			}
-	
+
 			a {
 				display: inline-block;
 				font-size: 16px;
@@ -56,11 +56,11 @@
 				i {
 					margin-left: 5px;
 				}
-	
+
 				&:hover {
 					color: $theme-color !important;
 				}
-	
+
 			}
 			.submenu {
 				position: absolute;
@@ -88,7 +88,7 @@
 					&:not(:last-child){
 						padding-bottom: 15px;
 					}
-	
+
 					a {
 						position: relative;
 						z-index: 11;
@@ -180,7 +180,7 @@
 						.homemenu-thumb {
 							position: relative;
 							overflow: hidden;
-	
+
 							img {
 								width: 100%;
 								@include transition;
@@ -189,16 +189,16 @@
 									transform: scale(1.1);
 								}
 							}
-							
+
 						}
-	
+
 						.homemenu-title {
 							text-align: center;
 							margin: 15px auto;
 							display: inline-block;
 							font-size: 16px;
 							font-weight: 600;
-							
+
 							a {
 								color: $header-color;
 
@@ -210,7 +210,7 @@
 					}
 				}
 			}
-			
+
 			&:hover {
 				>a {
 					color:  $theme-color;
@@ -368,12 +368,12 @@
 
 	.sidebar__toggle {
 		cursor: pointer;
-	
+
 		.header-bar {
 			position: relative;
 			width: 31px;
 			height: 18px;
-		
+
 			span {
 				position: absolute;
 				width: 100%;
@@ -432,36 +432,36 @@
 			.main-menu {
 				ul {
 					li {
-			
+
 						a {
 							color:  $white;
-							
-				
+
+
 							&:hover {
 								color: $theme-color !important;
 							}
-				
+
 						}
 						.submenu {
-				
+
 							color: $header-color;
 							li {
-								
-				
+
+
 								a {
 									color: $header-color;
-			
+
 									&:hover {
 										color: $theme-color !important;
 									}
 								}
-					
+
 							}
 						}
 					}
 				}
 			}
-		
+
 			.header-right {
 				.search-icon {
 					color: $white;
@@ -474,7 +474,7 @@
 		}
 
 		.sidebar__toggle {
-		
+
 			.header-bar {
 				span {
 					background: $white;
@@ -499,7 +499,7 @@
 					span {
 						color: $white;
 					}
-	
+
 					h6 {
 						color: $white;
 
@@ -573,36 +573,36 @@
 			.main-menu {
 				ul {
 					li {
-			
+
 						a {
 							color:  $header-color;
-							
-				
+
+
 							&:hover {
 								color: $theme-color !important;
 							}
-				
+
 						}
 						.submenu {
-				
+
 							color: $header-color;
 							li {
-								
-				
+
+
 								a {
 									color: $header-color;
-			
+
 									&:hover {
 										color: $theme-color !important;
 									}
 								}
-					
+
 							}
 						}
 					}
 				}
 			}
-		
+
 			.header-right {
 				.search-icon {
 					color: $header-color;
@@ -625,7 +625,7 @@
 					span {
 						color: $header-color;
 					}
-	
+
 					h6 {
 						color: $header-color;
 
@@ -642,7 +642,7 @@
 		}
 
 		.sidebar__toggle {
-		
+
 			.header-bar {
 				span {
 					background: $header-color;
@@ -907,7 +907,7 @@
 			@include breakpoint(max-lg){
 				justify-content: center;
 			}
-			
+
 			li {
 				font-size: 24px;
 				color: $white;
@@ -918,16 +918,16 @@
 				@include breakpoint (max-sm){
 					font-size: 16px;
 				}
-	
+
 				a {
 					color: $theme-color-2;				;
 					@include transition;
-	
+
 					&:hover{
 						color: $theme-color;
 					}
 				}
-	
+
 				i{
 					font-size: 20px;
 					color: $white;

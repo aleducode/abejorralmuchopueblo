@@ -247,7 +247,7 @@
                 font-family: $body-font;
                 color: $white;
                 font-weight: 800;
-    
+
                 &::after {
                     right: -30px;
                     border-bottom: 1px solid $white;
@@ -255,22 +255,22 @@
                     width: 9px;
                     height: 9px;
                 }
-    
+
                 .list {
                     width: 100%;
                     background-color: $white;
                     color: $text-color;
                 }
-    
+
                 .focus {
                     background-color: transparent;
                     font-weight: 400;
                     color: $text-color;
                 }
-    
+
                 .option {
                     border: none;
-    
+
                     &:hover {
                         background-color: transparent;
                     }
@@ -623,9 +623,9 @@
             font-size: 78px;
             color: $white;
         }
-    
+
         .content {
-    
+
             h3 {
                 color: $white;
             }

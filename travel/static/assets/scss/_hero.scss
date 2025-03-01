@@ -159,7 +159,7 @@
                 // @include breakpoint (max-md){
                 //     width: none;
                 // }
-    
+
                 &::after {
                     right: -30px;
                     border-bottom: 1px solid $header-color;
@@ -167,22 +167,22 @@
                     width: 9px;
                     height: 9px;
                 }
-    
+
                 .list {
                     width: 100%;
                     background-color: $bg-color;
                     z-index: 9999;
                 }
-    
+
                 .focus {
                     background-color: transparent;
                     font-weight: 400;
                     color: $text-color;
                 }
-    
+
                 .option {
                     border: none;
-    
+
                     &:hover {
                         background-color: transparent;
                     }
@@ -418,7 +418,7 @@
             padding: 0 30px;
         }
     }
-    
+
     .hero-content {
         @include breakpoint (max-md) {
             margin: 0 auto;
@@ -483,7 +483,7 @@
         background-color: $white;
         border-radius: 12px;
         box-shadow: 0px 4px 85.6px 17px rgba(0, 0, 0, 0.11);
-        
+
 
         @include breakpoint (max-md){
             padding: 30px;
@@ -501,7 +501,7 @@
         }
 
         .booking-list-area {
-    
+
             .booking-list {
                 display: flex;
                 gap: 15px;
@@ -510,13 +510,13 @@
                 padding: 20px 25px;
                 margin-bottom: 15px;
                 border-radius: 10px;
-    
+
                 // &.style-2 {
                 //     margin-bottom: 40px;
                 //     padding-bottom: 0;
                 //     border-bottom: none;
                 // }
-    
+
                 .content {
                     h5 {
                         font-size: 14px;
@@ -526,7 +526,7 @@
                     }
                 }
             }
-    
+
             .form-clt {
                 .nice-select {
                     padding: 0;
@@ -540,7 +540,7 @@
                     font-family: $body-font;
                     color: $header-color;
                     font-weight: 800;
-        
+
                     &::after {
                         right: -170px;
                         border-bottom: 1px solid $header-color;
@@ -560,22 +560,22 @@
                             right: -50px;
                         }
                     }
-        
+
                     .list {
                         width: 100%;
                         background-color: $bg-color;
                         z-index: 9999;
                     }
-        
+
                     .focus {
                         background-color: transparent;
                         font-weight: 400;
                         color: $text-color;
                     }
-        
+
                     .option {
                         border: none;
-        
+
                         &:hover {
                             background-color: transparent;
                         }
@@ -671,7 +671,7 @@
             -ms-transition: all 8s ease-out 0s;
             -o-transition: all 8s ease-out 0s;
             transition: all 8s ease-out 0s;
-    
+
             &::before {
                 @include before;
                 background: rgba(21, 20, 21, 0.69);
@@ -699,7 +699,7 @@
                 @include breakpoint (max-md){
                     font-size: 70px;
                 }
-     
+
                 @include breakpoint (max-sm){
                     font-size: 50px;
                 }
@@ -713,7 +713,7 @@
                     position: relative;
                     display: inline-block;
                     margin-right: 30px;
-    
+
                     &::before {
                         position: absolute;
                         bottom: -15px;
@@ -802,7 +802,7 @@
                 // @include breakpoint (max-md){
                 //     width: none;
                 // }
-    
+
                 &::after {
                     right: 0;
                     border-bottom: 1px solid $header-color;
@@ -829,7 +829,7 @@
                 height: initial;
             }
 
-        
+
 
             .input-group-addon {
                 margin-left: -55px !important;
@@ -963,7 +963,7 @@
             @include breakpoint (max-md){
                 font-size: 70px;
             }
- 
+
             @include breakpoint (max-sm){
                 font-size: 50px;
             }
@@ -1064,7 +1064,7 @@
                 // @include breakpoint (max-md){
                 //     width: none;
                 // }
-    
+
                 &::after {
                     right: 0;
                     border-bottom: 1px solid $header-color;
@@ -1091,7 +1091,7 @@
                 height: initial;
             }
 
-        
+
 
             .input-group-addon {
                 margin-left: -55px !important;
@@ -1162,7 +1162,7 @@
                 }
             }
 
-            
+
             &.style-3 {
                 height: 645px;
 

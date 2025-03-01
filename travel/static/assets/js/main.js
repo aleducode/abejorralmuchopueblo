@@ -426,15 +426,15 @@
         //>> Destination Hover Js Start <<//
         const getSlide = $('destination-wrapper-4, .destination-image-items-4').length - 1;
         const slideCal = 100 / getSlide + '%';
-        
+
         $('.destination-image-items-4').css({
             "width": slideCal
         });
-        
+
         $(document).on('mouseenter', '.destination-image-items-4', function() {
             $('.destination-image-items-4').removeClass('active');
             $(this).addClass('active');
-        });     
+        });
 
          // Search bar
          $(".search-toggle").on('click', function(){
@@ -468,7 +468,7 @@
             });
         });
 
-        
+
     }); // End Document Ready Function
 
     //Price Range Slideer
@@ -519,12 +519,11 @@
     function loader() {
         $(window).on('load', function() {
             // Animate loader off screen
-            $(".preloader").addClass('loaded');                    
-            $(".preloader").delay(600).fadeOut();                       
+            $(".preloader").addClass('loaded');
+            $(".preloader").delay(600).fadeOut();
         });
     }
 
     loader();
-    
-})(jQuery); // End jQuery
 
+})(jQuery); // End jQuery
